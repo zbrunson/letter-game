@@ -1,0 +1,8 @@
+<div class="container">
+	<div class="col-md-6">Score: {{ctrl.state.score}}</div>
+	<div class="col-md-6" ng-if="!ctrl.state.gameRunning">Press space to start the game</div>
+	<div class="col-md-6" ng-if="ctrl.state.gameRunning">Type the letters that appear</div>
+	<div class="col-md-12 lettersContainer" style="width: {{ctrl.state.containerWidth}}px">
+		<div ng-repeat="item in ctrl.state.letters" style="left: {{item.left}}px">{{item.letter}}</div>
+	</div>
+</div>

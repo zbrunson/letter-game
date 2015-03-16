@@ -1,0 +1,10 @@
+{
+  "name": "game",
+  "version": "0.0.0",
+  "authors": [
+    "Zack Brunson"
+  ],
+  "dependencies": {
+    "es5-shim": "~4.1.0"
+  }
+}

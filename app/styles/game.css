@@ -1,0 +1,11 @@
+.lettersContainer {
+	height: 1.4em;
+	background-color: #EEE;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lettersContainer>div {
+	position: absolute;
+}
+
